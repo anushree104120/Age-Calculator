@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+    
+</head>
+<body>
+    <div class="main">
+       <div class="main1"><h1 class="head1">Age Calculator</h1></div> 
+        <div class="col">
+            <div>
+                <label>DATE</label>
+                <br>
+                <input type="text" placeholder="DD"  id="date"  minlength="1" maxlength="2">
+            </div>
+            <div >
+                <label>MONTH</label>
+                <br>
+                <input type="text" placeholder="MM" id="month" minlength="1" maxlength="2">
+            </div>
+            <div >
+                <label>YEAR</label>
+                <br>
+                <input type="text" placeholder="YYYY" id="year" minlength="4" maxlength="4">
+            </div>
+        </div>
+        <script src="cal.js" defer></script>
+        <div class="btn">
+            
+             <button class="btn1" onclick="age()">ENTER</button>
+             
+         </div>
+         <div id="age" ></div>
+         
+       
+          
+    </div>
+    
+    
+</body>
+</html>
